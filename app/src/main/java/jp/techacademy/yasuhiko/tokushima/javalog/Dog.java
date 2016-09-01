@@ -19,7 +19,7 @@ class Dog extends Animal implements Movable {
         Log.d("javatest", "これは犬クラスです。");
     }
 
-    // メンバ変数
+    // メンバ関数
     public void say() {
         Log.d("javatest", this.name + "(" + this.age +  "歳)「ワンワン」");
     }
